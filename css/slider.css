@@ -1,0 +1,131 @@
+#mcts1 {
+    width: 85%;
+    height: 110px;
+    margin: 0 auto;
+    background: url(loading.gif) 50% 50% no-repeat;
+    padding-bottom: 15px;
+    white-space: nowrap;
+    position: relative;
+    font-size: 0;
+    transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0)
+}
+
+#mcts1>* {
+    display: none
+}
+
+#mcts1 div.item {
+    padding: 2px;
+    margin-right: 6px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative
+}
+
+#mcts1 img {
+    border: none
+}
+
+#mcts1 .navNext,
+#mcts1 .navPause,
+#mcts1 .navPlay,
+#mcts1 .navPrev {
+    width: 16px;
+    height: 22px;
+    position: absolute;
+    background: url(navbuttons.png);
+    display: inline-block;
+    z-index: 5;
+    cursor: pointer
+}
+
+#mcts1 .navPrev {
+    background-position: 0 -22px;
+    top: 60px;
+    left: -40px
+}
+
+#mcts1 .navPrev:hover {
+    background-position: 0 -44px
+}
+
+#mcts1 .navPrevDisabled,
+#mcts1 .navPrevDisabled:hover {
+    background-position: 0 0;
+    cursor: default
+}
+
+#mcts1 .navNext {
+    background-position: -16px -22px;
+    top: 60px;
+    right: -40px
+}
+
+#mcts1 .navNext:hover {
+    background-position: -16px -44px
+}
+
+#mcts1 .navNextDisabled,
+#mcts1 .navNextDisabled:hover {
+    background-position: -16px 0;
+    cursor: default
+}
+
+#mcts1 .navPause,
+#mcts1 .navPlay {
+    left: 360px;
+    top: 130px
+}
+
+#mcts1 .navPause {
+    background-position: 0 -66px
+}
+
+#mcts1 .navPause:hover {
+    background-position: 0 -88px
+}
+
+#mcts1 .navPlay {
+    background-position: -16px -66px
+}
+
+#mcts1 .navPlay:hover {
+    background-position: -16px -88px
+}
+
+.navNext,
+.navPause,
+.navPlay,
+.navPrev {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+#mcts1 .navBullets {
+    display: none
+}
+
+.class1 {
+    width: 130px;
+    height: 80px;
+    background: #444;
+    text-align: center;
+    color: #fff;
+    font: 400 11px/14px Arial;
+    white-space: normal
+}
+
+.class1 p {
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-top: 6px;
+    font: 700 13px Verdana;
+    color: #F90
+}
